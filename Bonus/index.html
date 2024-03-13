@@ -28,23 +28,23 @@
               />
             </div>
             <label for="sconto" class="form-label">Sconto</label>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" id="select-input" aria-label="Default select example">
               <option selected>Scegli lo sconto</option>
               <option value="1"></option>
               <option value="2">Minorenni</option>
               <option value="3">Over 65</option>
             </select>
             <div class="d-grid gap-2 pt-4">
-                <button class="btn btn-primary" type="button">Invia dati</button>
+                <button class="btn btn-primary" type="button" id="submit">Invia dati</button>
               </div>
           </div>
           <div class="col">
             <div class="card h-100 p-3" style="width: 18rem;">
                 <ul class="list-group list-group-flush fw-semibold">
-                  <li class="list-group-item">Km del viaggio</li>
-                  <li class="list-group-item">Prezzo base</li>
-                  <li class="list-group-item">Sconto applicato</li>
-                  <li class="list-group-item">Prezzo totale</li>
+                  <li class="list-group-item" id="km-percorsi">Km del viaggio</li>
+                  <li class="list-group-item" id="prezzo-base">Prezzo base</li>
+                  <li class="list-group-item" id="sconto-applicato">Sconto applicato</li>
+                  <li class="list-group-item" id="prezzo-totale">Prezzo totale</li>
                   <div class="d-grid gap-2 pt-4">
                     <button class="btn btn-primary" type="button">Aquista</button>
                   </div>
